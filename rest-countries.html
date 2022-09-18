@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        body {
+            margin: 30px;
+        }
+
+        #countries-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .color-me {
+            border: 2px solid tomato;
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h4>All Countries</h4>
+    </header>
+    <main>
+        <section>
+            <h4>Country Details</h4>
+            <div id="country-detail">
+                
+            </div>
+        </section>
+        <section>
+            <h1>Countries</h1>
+            <div id="countries-container">
+
+            </div>
+        </section>
+    </main>
+    <!-- script files-->
+    <script src="./js/rest-countries.js"></script>
+</body>
+
+</html>
